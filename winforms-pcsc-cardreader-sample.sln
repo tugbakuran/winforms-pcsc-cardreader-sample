@@ -1,0 +1,43 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{827E0CD3-B72D-47B6-A68D-7590B98EB39B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NfcReader33.Application", "src\NfcReader33.Application\NfcReader33.Application.csproj", "{37445C23-3261-DF16-0318-E0EBA8DD8034}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NfcReader33.Domain", "src\NfcReader33.Domain\NfcReader33.Domain.csproj", "{3FBF5E6D-C4C9-AE3D-5BEC-CC5D50F94384}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NfcReader33.Infrastructure.Pcsc", "src\NfcReader33.Infrastructure.Pcsc\NfcReader33.Infrastructure.Pcsc.csproj", "{3734FF06-342A-608D-658A-DD44CED0075E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{37445C23-3261-DF16-0318-E0EBA8DD8034}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37445C23-3261-DF16-0318-E0EBA8DD8034}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37445C23-3261-DF16-0318-E0EBA8DD8034}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37445C23-3261-DF16-0318-E0EBA8DD8034}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FBF5E6D-C4C9-AE3D-5BEC-CC5D50F94384}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FBF5E6D-C4C9-AE3D-5BEC-CC5D50F94384}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FBF5E6D-C4C9-AE3D-5BEC-CC5D50F94384}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FBF5E6D-C4C9-AE3D-5BEC-CC5D50F94384}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3734FF06-342A-608D-658A-DD44CED0075E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3734FF06-342A-608D-658A-DD44CED0075E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3734FF06-342A-608D-658A-DD44CED0075E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3734FF06-342A-608D-658A-DD44CED0075E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{37445C23-3261-DF16-0318-E0EBA8DD8034} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
+		{3FBF5E6D-C4C9-AE3D-5BEC-CC5D50F94384} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
+		{3734FF06-342A-608D-658A-DD44CED0075E} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {828C54D5-534E-4759-AE15-5AD4009FA49C}
+	EndGlobalSection
+EndGlobal
